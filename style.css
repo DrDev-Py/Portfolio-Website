@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body section header {
+        background: url(img/laptop5.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.navlist nav .navDiv {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.navlist nav .navDiv a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+}
+
+.secondSection .firstText {
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.secondSection .secondText {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.secondSection .thirdText {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+section header .secondSection a .hireButton {
+    border-color:#FFD700;
+    color: #FFD700;
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutDiv {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.aboutDiv .aboutHead {
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+hr{
+    height: 3px;
+    background-color:#FFD700;
+    border: none;
+    width: 6%;
+}
+
+.aboutDiv2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aboutDiv2 .description h1 .name {
+    color: #FFD700;
+}
+
+.resumeButton {
+    border-color:#FFD700;
+    color: #ffffff;
+    background-color: #FFD700;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+}
+
+section .formDiv hr {
+    height: 1px;
+    background-color: #e5a3ad;
+    border: none;
+    width: 100%;  
+}
+
+section .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 150px 70px 150px;
+}
+
+section .details .v1 {
+    border-left: 1.5px solid #f8c8cf;
+    height: 100px;
+}
+
+section .details .number {
+    font-size: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+section .details .client {
+    font-size: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+section .details .projects {
+    font-size: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+section .details .reward {
+    font-size: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .navlist nav .navDiv {
+        font-size: 20px;
+        margin: 60px 0px;
+    }
+
+  .aboutDiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section .formDiv hr {
+    height: 1px;
+    background-color: #e5a3ad;
+    border: none;
+    width: 50%;  
+}
+section .formDiv {
+    text-align: center;
+}
+
+.aboutDiv2 .description {
+    text-align: center;
+    font-size: 20px;
+}
+
+.aboutDiv2 .formDiv {
+    font-size: 20px;
+}
+
+section .details .numberDiv {
+    padding-right: 20px;
+}
+
+section .details .numberDiv p {
+    text-align: center;
+    font-size: 20px;
+}
+
+section .details .clientDiv {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+section .details .clientDiv p {
+    text-align: center;
+    font-size: 20px;
+}
+
+section .details .projectsDiv {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+section .details .projectsDiv p {
+    text-align: center;
+    font-size: 20px;
+}
+
+section .details .rewardDiv {
+    padding-left: 20px;
+}
+
+section .details .rewardDiv p {
+    text-align: center;
+}
+}
